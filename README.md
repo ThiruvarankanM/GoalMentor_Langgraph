@@ -75,7 +75,7 @@ The application will open in your browser at `http://localhost:8501`
 Watch the final demonstration of the **Goal Mentor LangGraph** project here:  
 [![Demo Video](https://img.youtube.com/vi/Z1ZeO8YydRI/0.jpg)](https://youtu.be/Z1ZeO8YydRI)
 
-Or click this link: [https://youtu.be/Z1ZeO8YydRI](https://youtu.be/Z1ZeO8YydRI)
+Or check thorugh this link: [https://youtu.be/Z1ZeO8YydRI](https://youtu.be/Z1ZeO8YydRI)
 
 ## Example Usage
 
