@@ -13,7 +13,7 @@ load_dotenv()
 llm = ChatOpenAI(
     base_url="https://api.groq.com/openai/v1",
     api_key=os.environ["GROQ_API_KEY"],
-    model="llama3-70b-8192",
+    model="llama-3.3-70b-versatile",  # User requested model
     temperature=0.3
 )
 

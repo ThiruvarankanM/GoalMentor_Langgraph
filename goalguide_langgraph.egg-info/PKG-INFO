@@ -1,3 +1,24 @@
+Metadata-Version: 2.4
+Name: goalguide-langgraph
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: dotenv>=0.9.9
+Requires-Dist: ipykernel>=6.30.1
+Requires-Dist: langchain>=0.3.27
+Requires-Dist: langchain-anthropic>=0.3.18
+Requires-Dist: langchain-community>=0.3.27
+Requires-Dist: langchain-core>=0.3.72
+Requires-Dist: langchain-google-genai>=2.1.9
+Requires-Dist: langchain-openai>=0.3.28
+Requires-Dist: langgraph>=0.6.3
+Requires-Dist: openai>=1.99.1
+Requires-Dist: pydantic>=2.11.7
+Requires-Dist: python-dotenv>=1.1.1
+Requires-Dist: typing-extensions>=4.14.1
+Requires-Dist: streamlit>=1.0.0
+
 # Goal Mentor
 
 A professional goal achievement platform powered by LangGraph and Groq Cloud API. Provides intelligent goal planning with 4-week implementation plans, progress tracking, and personalized guidance for obstacle management.
@@ -27,11 +48,8 @@ pip install streamlit python-dotenv langchain-community langchain-core langchain
 # Configure environment
 echo "GROQ_API_KEY=your_groq_api_key_here" > .env
 
-# Run Streamlit web application
+# Run application
 streamlit run main.py
-
-# Run CLI/graph version (no UI)
-python main_graph.py
 ```
 
 Access at: `http://localhost:8501`
@@ -71,11 +89,10 @@ Access at: `http://localhost:8501`
 
 ```
 GoalMentor_Langgraph/
-├── main.py              # Streamlit web application (UI)
-├── main_graph.py        # CLI/graph version (no UI)
+├── main.py              # Main application
 ├── .env                 # Environment variables
 ├── requirements.txt     # Dependencies
-└── README.md            # Documentation
+└── README.md           # Documentation
 ```
 
 ## Requirements
